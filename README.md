@@ -11,3 +11,7 @@
 - Oumarou BOLA
 - Shama Wache 
 - Yvan CARRE
+
+## Research Question
+
+What is the impact if the timing of non-pharmaceutical Intervention (NPIs) on the hospitalisation bed capacity for COVID-19 outbreaking : Berlin?
