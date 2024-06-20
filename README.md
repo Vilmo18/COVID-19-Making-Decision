@@ -16,3 +16,13 @@
 ## Research Question
 
 What is the impact if the timing of non-pharmaceutical Intervention (NPIs) on the hospitalisation bed capacity for COVID-19 outbreaking : Berlin?
+
+
+## Model
+
+<p align="center">
+  <img src="images/model.png" alt="train" width="800"/>
+</p>
+
+
+
