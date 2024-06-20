@@ -21,7 +21,7 @@ What is the impact if the timing of non-pharmaceutical Intervention (NPIs) on th
 ## Model
 
 <p align="center">
-  <img src="images/model.png" alt="train" width="800"/>
+  <img src="images/model.png" alt="train" width="300"/>
 </p>
 
 
