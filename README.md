@@ -5,12 +5,13 @@
 
 ## Members
 
-- Annette Diffo
+- Annette 
+- Emmanuel A.
 - Jay 
-- Oumarou BOLA
-- Shama Wache 
-- T
-- Yvan CARRE
+- Oumarou 
+- Shama  
+- Tiwonge
+- Yvan 
 
 ## Research Question
 
