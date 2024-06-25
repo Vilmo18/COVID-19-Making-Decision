@@ -13,11 +13,8 @@
 - Tiwonge
 - Yvan 
 
-## Research Question
-
-What is the impact if the timing of non-pharmaceutical Intervention (NPIs) on the hospitalisation bed capacity for COVID-19 outbreaking : Berlin?
-
-
+## Title
+The impact on the timing of non-pharmacotical interventions(NPI) on the hospital’s bed capacity for Covid-19 outbreak in Italy 2020
 ## Model
 
 <p align="center">
