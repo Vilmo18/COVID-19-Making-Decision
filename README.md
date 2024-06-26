@@ -31,15 +31,25 @@ The dataset containing historical data on COVID-19 cases, hospitalizations, and 
 
 
 <p align="center">
-  <img src="images/excluded_icu.png" alt="train" width="300"/>
-  <img src="images/icu.png" alt="train" width="300"/>
+  <img src="images/excluded_icu.png" alt="non icu" width="300"/>
+  <img src="images/icu.png" alt="icu" width="300"/>
 </p>
 
 ## Model
 
 <p align="center">
-  <img src="images/Model diagram.jpg" alt="train" width="500"/>
+  <img src="images/Model diagram.jpg" alt="model" width="400"/>
 </p>
+
+## Differential Equation
+
+\begin{align*}
+\frac{dS}{dt} &= -\beta \frac{SI}{N} \\
+\frac{dE}{dt} &= \beta \frac{SI}{N} - \sigma E \\
+\frac{dI}{dt} &= \sigma E - \alpha I \\
+\frac{dB_N}{dt} &= \alpha I - (\theta + \gamma_1) B_N \\
+\frac{dB_{ICU}}{dt} &= \gamma_1 B_N - (\lambda_1 + \delta) B_{ICU}
+\end{align*}
 
 
 
