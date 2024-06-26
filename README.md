@@ -92,6 +92,21 @@ The model is governed by the following system of differential equations:
 \end{align*}
 \]
 
+## Differential Equations
+
+The model is governed by the following system of differential equations:
+
+\[ 
+\begin{align*}
+\frac{dS}{dt} &= -\beta \frac{SI}{N} \\
+\frac{dE}{dt} &= \beta \frac{SI}{N} - \sigma E \\
+\frac{dI}{dt} &= \sigma E - \alpha I \\
+\frac{dB_N}{dt} &= \alpha I - (\theta + \gamma_1) B_N \\
+\frac{dB_{ICU}}{dt} &= \gamma_1 B_N - (\lambda_1 + \delta) B_{ICU}
+\end{align*}
+\]
+
+
 where:
 - \(S\) is the number of susceptible individuals
 - \(E\) is the number of exposed individuals
