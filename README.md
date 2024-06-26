@@ -65,6 +65,7 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 ### States
 
 <p align="center">
+
 | **Symbol** | **Description**                                      |
 |------------|------------------------------------------------------|
 | $S$        | Number of susceptible individuals                    |
@@ -72,11 +73,13 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 | $I$        | Number of infectious individuals                     |
 | $B_N$      | Number of non-ICU hospitalized individuals           |
 | $B_{ICU}$  | Number of ICU hospitalized individuals               |
+
 </p>
 
 ### Parameters
 
 <p align="center">
+
 | **Symbol** | **Description**                                       |
 |------------|-------------------------------------------------------|
 | $N$        | Total population                                      |
@@ -87,6 +90,7 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 | $\gamma_1$ | Rate at which non-ICU hospitalized individuals move to ICU |
 | $\lambda_1$| Rate at which ICU individuals recover                 |
 | $\delta$   | Death rate in the ICU                                 |
+
 </p>
 <!-- States:
 - $S$ is the number of susceptible individuals
@@ -95,7 +99,7 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 - $B_N$ is the number of non-ICU hospitalized individuals
 - $B_{ICU}$ is the number of ICU hospitalized individuals
 
-Parameters:
+<!-- Parameters:
 - $N$ is the total population
 - $\beta$: Transmission rate
 - $\sigma$: Rate at which exposed individuals become infectious
@@ -103,7 +107,7 @@ Parameters:
 - $\theta$: Rate at which non-ICU hospitalized individuals recover
 - $\gamma_1$: Rate at which non-ICU hospitalized individuals are moved to the ICU
 - $\lambda_1$: Rate at which ICU individuals recover
-- $\delta$: Death rate in the ICU -->
+- $\delta$: Death rate in the ICU --> -->
 
 
 
