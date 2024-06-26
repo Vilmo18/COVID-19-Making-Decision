@@ -31,8 +31,8 @@ The dataset containing historical data on COVID-19 cases, hospitalizations, and 
 
 
 <p align="center">
-  <img src="images/excluded_icu.png" alt="train" width="500"/>
-  <img src="images/icu.png" alt="train" width="500"/>
+  <img src="images/excluded_icu.png" alt="train" width="300"/>
+  <img src="images/icu.png" alt="train" width="300"/>
 </p>
 
 ## Model
