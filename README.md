@@ -16,7 +16,6 @@
 
 ## Team Members
 
-| Column 1       | Column 2      |
 | -------------- | ------------- |
 | Annette        | Jay           |
 | Emmanuel A.    | Oumarou       |
@@ -76,7 +75,32 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 
 ### States - Parameters
 
-States:
+## SEIR Model States and Parameters
+
+### States
+
+| **Symbol** | **Description**                                      |
+|------------|------------------------------------------------------|
+| $S$        | Number of susceptible individuals                    |
+| $E$        | Number of exposed individuals                        |
+| $I$        | Number of infectious individuals                     |
+| $B_N$      | Number of non-ICU hospitalized individuals           |
+| $B_{ICU}$  | Number of ICU hospitalized individuals               |
+
+### Parameters
+
+| **Symbol** | **Description**                                       |
+|------------|-------------------------------------------------------|
+| $N$        | Total population                                      |
+| $\beta$    | Transmission rate                                     |
+| $\sigma$   | Rate at which exposed individuals become infectious   |
+| $\alpha$   | Rate at which infectious individuals are hospitalized |
+| $\theta$   | Rate at which non-ICU hospitalized individuals recover |
+| $\gamma_1$ | Rate at which non-ICU hospitalized individuals move to ICU |
+| $\lambda_1$| Rate at which ICU individuals recover                 |
+| $\delta$   | Death rate in the ICU                                 |
+
+<!-- States:
 - $S$ is the number of susceptible individuals
 - $E$ is the number of exposed individuals
 - $I$ is the number of infectious individuals
@@ -91,7 +115,7 @@ Parameters:
 - $\theta$: Rate at which non-ICU hospitalized individuals recover
 - $\gamma_1$: Rate at which non-ICU hospitalized individuals are moved to the ICU
 - $\lambda_1$: Rate at which ICU individuals recover
-- $\delta$: Death rate in the ICU
+- $\delta$: Death rate in the ICU -->
 
 
 
