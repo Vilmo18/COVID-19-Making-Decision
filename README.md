@@ -39,33 +39,24 @@ The dataset containing historical data on COVID-19 cases, hospitalizations, and 
 
 The stochastic SEIR model will be implemented using historical data from Milan's COVID-19 outbreak. The parameters (\(\beta\), \(\sigma\), \(\alpha\), \(\theta\), \(\gamma_1\), \(\lambda_1\), \(\delta\))
 
-<p align="center">
-  <img src="images/Model diagram.jpg" alt="model" width="400"/>
-</p>
 
 The model will simulate the progression of the pandemic over 150 days for the first wave, analyzing the impact of different non-pharmaceutical interventions (NPIs) on hospital bed capacity.
 
 ## Differential Equation
 
-\begin{align*}
-\frac{dS}{dt} &= -\beta \frac{SI}{N} \\
-\frac{dE}{dt} &= \beta \frac{SI}{N} - \sigma E \\
-\frac{dI}{dt} &= \sigma E - \alpha I \\
-\frac{dB_N}{dt} &= \alpha I - (\theta + \gamma_1) B_N \\
-\frac{dB_{ICU}}{dt} &= \gamma_1 B_N - (\lambda_1 + \delta) B_{ICU}
-\end{align*}
 
-Here's a revised version of your README for GitHub, which includes a brief description, model details, differential equations, and instructions for using the repository:
 
----
 
-# Stochastic SEIR Model for Milan's COVID-19 Outbreak
+## Stochastic SEIR Model for Milan's COVID-19 Outbreak
 
-This repository implements a stochastic SEIR (Susceptible-Exposed-Infectious-Recovered) model using historical data from Milan's COVID-19 outbreak. The model simulates the progression of the pandemic over 150 days during the first wave and analyzes the impact of different non-pharmaceutical interventions (NPIs) on hospital bed capacity.
+### Model Diagram
 
-## Model Diagram
+<!-- ![Model Diagram](images/Model%20diagram.jpg) -->
 
-![Model Diagram](images/Model%20diagram.jpg)
+<p align="center">
+  <img src="images/Model diagram.jpg" alt="model" width="400"/>
+</p>
+
 
 ### States - Parameters
 
@@ -93,7 +84,6 @@ Parameters:
 ### Differential Equations
 
 The model is governed by the following system of differential equations:
-
 $$
 \begin{align*}
 \frac{dS}{dt} &= -\beta \frac{SI}{N} \\
