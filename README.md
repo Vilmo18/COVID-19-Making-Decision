@@ -84,6 +84,7 @@ Parameters:
 ### Differential Equations
 
 The model is governed by the following system of differential equations:
+
 $$
 \begin{align*}
 \frac{dS}{dt} &= -\beta \frac{SI}{N} \\
