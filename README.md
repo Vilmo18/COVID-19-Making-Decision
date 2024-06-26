@@ -14,11 +14,27 @@
 - Yvan 
 
 ## Title
-The impact on the timing of non-pharmacotical interventions(NPI) on the hospital’s bed capacity for Covid-19 outbreak in Italy 2020
+
+The Impact of Timing of Non-Pharmaceutical Interventions (NPIs) on ICU Beds Occupancy During the 2020 COVID-19 Outbreak in Italy
+
+## Objective
+
+Our goal in this project is to advise Italian policymakers on the optimal timeline for interventions to prevent hospital
+overcrowding, protect citizens by curbing the virus’s spread at the right time, and reduce public health costs for the government.
+
+## Research Question
+How does implementation of non-pharmaceutical interventions on days 5, 10, 30, and 50 after the first detected case of SARS-CoV-2 in Italy affect ICU bed occupancy?
+
+## Description Data
+
+
+
+
+
 ## Model
 
 <p align="center">
-  <img src="images/model_update.png" alt="train" width="500"/>
+  <img src="images/Model diagram.jpg" alt="train" width="500"/>
 </p>
 
 
