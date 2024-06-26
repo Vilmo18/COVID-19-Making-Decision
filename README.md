@@ -14,6 +14,16 @@
 - Tiwonge
 - Yvan 
 
+## Team Members
+
+| Column 1       | Column 2      |
+| -------------- | ------------- |
+| Annette        | Jay           |
+| Emmanuel A.    | Oumarou       |
+| Shama          | Tiwonge       |
+| Yvan           |               |
+
+
 ## Title
 
 The Impact of Timing of Non-Pharmaceutical Interventions (NPIs) on ICU Beds Occupancy During the 2020 COVID-19 Outbreak in Italy
