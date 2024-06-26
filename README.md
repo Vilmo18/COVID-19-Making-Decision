@@ -17,6 +17,10 @@
 
 The Impact of Timing of Non-Pharmaceutical Interventions (NPIs) on ICU Beds Occupancy During the 2020 COVID-19 Outbreak in Italy
 
+<p align="center">
+  <img src="images/italy.png" alt="non icu" width="300"/>
+</p>
+
 ## Objective
 
 Our goal in this project is to advise Italian policymakers on the optimal timeline for interventions to prevent hospital
