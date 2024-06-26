@@ -58,11 +58,10 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 </p>
 
 
-### States - Parameters
 
-## SEIR Model States and Parameters
+### SEIR Model States and Parameters
 
-### States
+#### States
 
 | **Symbol** | **Description**                                      |
 |------------|------------------------------------------------------|
@@ -73,7 +72,7 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 | $B_{ICU}$  | Number of ICU hospitalized individuals               |
 
 
-### Parameters
+#### Parameters
 
 | **Symbol** | **Description**                                       |
 |------------|-------------------------------------------------------|
