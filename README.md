@@ -27,9 +27,13 @@ How does implementation of non-pharmaceutical interventions on days 5, 10, 30, a
 
 ## Description Data
 
+The dataset containing historical data on COVID-19 cases, hospitalizations, and hospital bed occupancy has been sourced from the Italian National Institute of Health. Our dataset, named \texttt{hospitalization.csv}, includes 150 rows and 4 columns. Each row corresponds to a specific day starting from \emph{February 24, 2020} and includes the following columns:
 
 
-
+<p align="center">
+  <img src="images/excluded_icu.png" alt="train" width="500"/>
+  <img src="images/icu.png" alt="train" width="500"/>
+</p>
 
 ## Model
 
