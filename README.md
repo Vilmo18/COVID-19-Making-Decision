@@ -28,7 +28,14 @@ How does implementation of non-pharmaceutical interventions on days 5, 10, 30, a
 ## Description Data
 
 The dataset containing historical data on COVID-19 cases, hospitalizations, and hospital bed occupancy has been sourced from the Italian National Institute of Health. Our dataset, named \texttt{hospitalization.csv}, includes 150 rows and 4 columns. Each row corresponds to a specific day starting from \emph{February 24, 2020} and includes the following columns:
-
+$$
+\begin{enumerate}
+    \item \textbf{Time}: The date of the recorded data (daily).
+    \item \textbf{Excluded\_ICU\_cases}: The number of patients hospitalized in normal beds (non-ICU).
+    \item \textbf{ICU\_cases}: The number of patients hospitalized in ICU beds.
+    \item \textbf{Total\_cases}: The total number of hospitalized patients, combining both normal bed and ICU bed hospitalizations.
+\end{enumerate}
+$$
 
 <p align="center">
   <img src="images/excluded_icu.png" alt="non icu" width="300"/>
@@ -43,7 +50,7 @@ The stochastic SEIR model will be implemented using historical data from Milan's
 The model will simulate the progression of the pandemic over 150 days for the first wave, analyzing the impact of different non-pharmaceutical interventions (NPIs) on hospital bed capacity.
 
 
-## Stochastic SEIR Model for Milan's COVID-19 Outbreak
+## SEIR Model for Milan's COVID-19 Outbreak
 
 ### Model Diagram
 
