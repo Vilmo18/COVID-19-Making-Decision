@@ -96,7 +96,7 @@ The model is governed by the following system of differential equations:
 
 The model is governed by the following system of differential equations:
 
-$
+$$
 \begin{align*}
 \frac{dS}{dt} &= -\beta \frac{SI}{N} \\
 \frac{dE}{dt} &= \beta \frac{SI}{N} - \sigma E \\
@@ -104,7 +104,7 @@ $
 \frac{dB_N}{dt} &= \alpha I - (\theta + \gamma_1) B_N \\
 \frac{dB_{ICU}}{dt} &= \gamma_1 B_N - (\lambda_1 + \delta) B_{ICU}
 \end{align*}
-$
+$$
 
 
 where:
