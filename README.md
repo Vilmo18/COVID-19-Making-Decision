@@ -37,7 +37,7 @@ The dataset containing historical data on COVID-19 cases, hospitalizations, and 
 
 ## Model
 
-The stochastic SEIR model will be implemented using historical data from Milan's COVID-19 outbreak. The parameters (\(\beta\), \(\sigma\), \(\alpha\), \(\theta\), \(\gamma_1\), \(\lambda_1\), \(\delta\))
+The stochastic SEIR model will be implemented using historical data from Milan's COVID-19 outbreak. The parameters ($\beta$, $\sigma$, $\alpha$, $\theta$, $\gamma_1$, $\lambda_1$, $\delta$)
 
 
 The model will simulate the progression of the pandemic over 150 days for the first wave, analyzing the impact of different non-pharmaceutical interventions (NPIs) on hospital bed capacity.
@@ -57,21 +57,21 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 ### States - Parameters
 
 States:
-- \(S\) is the number of susceptible individuals
-- \(E\) is the number of exposed individuals
-- \(I\) is the number of infectious individuals
-- \(B_N\) is the number of non-ICU hospitalized individuals
-- \(B_{ICU}\) is the number of ICU hospitalized individuals
-$\beta$
+- $S$ is the number of susceptible individuals
+- $E$ is the number of exposed individuals
+- $I$ is the number of infectious individuals
+- $B_N$ is the number of non-ICU hospitalized individuals
+- $B_{ICU}$ is the number of ICU hospitalized individuals
+
 Parameters:
-- \(N\) is the total population
-- \(\beta\): Transmission rate
-- \(\sigma\): Rate at which exposed individuals become infectious
-- \(\alpha\): Rate at which infectious individuals are hospitalized
-- \(\theta\): Rate at which non-ICU hospitalized individuals recover
-- \(\gamma_1\): Rate at which non-ICU hospitalized individuals are moved to the ICU
-- \(\lambda_1\): Rate at which ICU individuals recover
-- \(\delta\): Death rate in the ICU
+- $N$ is the total population
+- $\beta$: Transmission rate
+- $\sigma$: Rate at which exposed individuals become infectious
+- $\alpha$: Rate at which infectious individuals are hospitalized
+- $\theta$: Rate at which non-ICU hospitalized individuals recover
+- $\gamma_1$: Rate at which non-ICU hospitalized individuals are moved to the ICU
+- $\lambda_1$: Rate at which ICU individuals recover
+- $\delta$: Death rate in the ICU
 
 
 
