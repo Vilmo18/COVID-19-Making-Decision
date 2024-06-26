@@ -25,9 +25,9 @@ overcrowding, protect citizens by curbing the virus’s spread at the right time
 ## Research Question
 How does implementation of non-pharmaceutical interventions on days 5, 10, 30, and 50 after the first detected case of SARS-CoV-2 in Italy affect ICU bed occupancy?
 
-## Description Data
+## Dataset Description
 
-The dataset containing historical data on COVID-19 cases, hospitalizations, and hospital bed occupancy has been sourced from the Italian National Institute of Health. Our dataset, named \texttt{hospitalization.csv}, includes 150 rows and 4 columns. Each row corresponds to a specific day starting from \emph{February 24, 2020} and includes the following columns:
+The dataset containing historical data on COVID-19 cases, hospitalizations, and hospital bed occupancy has been sourced from the Italian National Institute of Health. Our dataset, named `hospitalization.csv`, includes 150 rows and 4 columns. Each row corresponds to a specific day starting from *February 24, 2020* and includes the following columns:
 
 - **Time**: The date of the recorded data (daily).
 - **Excluded_ICU_cases**: The number of patients hospitalized in normal beds (non-ICU).
