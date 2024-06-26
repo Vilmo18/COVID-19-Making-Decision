@@ -42,10 +42,6 @@ The stochastic SEIR model will be implemented using historical data from Milan's
 
 The model will simulate the progression of the pandemic over 150 days for the first wave, analyzing the impact of different non-pharmaceutical interventions (NPIs) on hospital bed capacity.
 
-## Differential Equation
-
-
-
 
 ## Stochastic SEIR Model for Milan's COVID-19 Outbreak
 
@@ -60,15 +56,13 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 
 ### States - Parameters
 
-The model uses the following :
-
 States:
 - \(S\) is the number of susceptible individuals
 - \(E\) is the number of exposed individuals
 - \(I\) is the number of infectious individuals
 - \(B_N\) is the number of non-ICU hospitalized individuals
 - \(B_{ICU}\) is the number of ICU hospitalized individuals
-
+$\beta$
 Parameters:
 - \(N\) is the total population
 - \(\beta\): Transmission rate
