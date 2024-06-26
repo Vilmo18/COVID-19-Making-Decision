@@ -4,24 +4,9 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
-## Members
-
-- Annette 
-- Emmanuel A.
-- Jay 
-- Oumarou 
-- Shama  
-- Tiwonge
-- Yvan 
-
 ## Team Members
 
-| -------------- | ------------- |
-| Annette        | Jay           |
-| Emmanuel A.    | Oumarou       |
-| Shama          | Tiwonge       |
-| Yvan           |               |
-
+Annette  -  Emmanuel A. - Jay - Oumarou  - Shama - Tiwonge - Yvan 
 
 ## Title
 
