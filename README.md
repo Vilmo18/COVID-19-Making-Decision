@@ -63,6 +63,7 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 ## SEIR Model States and Parameters
 
 ### States
+
 <p align="center">
 | **Symbol** | **Description**                                      |
 |------------|------------------------------------------------------|
@@ -74,6 +75,7 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 </p>
 
 ### Parameters
+
 <p align="center">
 | **Symbol** | **Description**                                       |
 |------------|-------------------------------------------------------|
