@@ -67,9 +67,19 @@ This repository implements a stochastic SEIR (Susceptible-Exposed-Infectious-Rec
 
 ![Model Diagram](images/Model%20diagram.jpg)
 
-## Parameters
+### States - Parameters
 
-The model uses the following parameters:
+The model uses the following :
+
+States:
+- \(S\) is the number of susceptible individuals
+- \(E\) is the number of exposed individuals
+- \(I\) is the number of infectious individuals
+- \(B_N\) is the number of non-ICU hospitalized individuals
+- \(B_{ICU}\) is the number of ICU hospitalized individuals
+
+Parameters:
+- \(N\) is the total population
 - \(\beta\): Transmission rate
 - \(\sigma\): Rate at which exposed individuals become infectious
 - \(\alpha\): Rate at which infectious individuals are hospitalized
@@ -78,21 +88,9 @@ The model uses the following parameters:
 - \(\lambda_1\): Rate at which ICU individuals recover
 - \(\delta\): Death rate in the ICU
 
-## Differential Equations
 
-The model is governed by the following system of differential equations:
 
-\[
-\begin{align*}
-\frac{dS}{dt} &= -\beta \frac{SI}{N} \\
-\frac{dE}{dt} &= \beta \frac{SI}{N} - \sigma E \\
-\frac{dI}{dt} &= \sigma E - \alpha I \\
-\frac{dB_N}{dt} &= \alpha I - (\theta + \gamma_1) B_N \\
-\frac{dB_{ICU}}{dt} &= \gamma_1 B_N - (\lambda_1 + \delta) B_{ICU}
-\end{align*}
-\]
-
-## Differential Equations
+### Differential Equations
 
 The model is governed by the following system of differential equations:
 
@@ -107,13 +105,6 @@ $$
 $$
 
 
-where:
-- \(S\) is the number of susceptible individuals
-- \(E\) is the number of exposed individuals
-- \(I\) is the number of infectious individuals
-- \(B_N\) is the number of non-ICU hospitalized individuals
-- \(B_{ICU}\) is the number of ICU hospitalized individuals
-- \(N\) is the total population
 
 ## Usage
 
