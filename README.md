@@ -37,9 +37,13 @@ The dataset containing historical data on COVID-19 cases, hospitalizations, and 
 
 ## Model
 
+The stochastic SEIR model will be implemented using historical data from Milan's COVID-19 outbreak. The parameters (\(\beta\), \(\sigma\), \(\alpha\), \(\theta\), \(\gamma_1\), \(\lambda_1\), \(\delta\))
+
 <p align="center">
   <img src="images/Model diagram.jpg" alt="model" width="400"/>
 </p>
+
+The model will simulate the progression of the pandemic over 150 days for the first wave, analyzing the impact of different non-pharmaceutical interventions (NPIs) on hospital bed capacity.
 
 ## Differential Equation
 
@@ -50,6 +54,76 @@ The dataset containing historical data on COVID-19 cases, hospitalizations, and 
 \frac{dB_N}{dt} &= \alpha I - (\theta + \gamma_1) B_N \\
 \frac{dB_{ICU}}{dt} &= \gamma_1 B_N - (\lambda_1 + \delta) B_{ICU}
 \end{align*}
+
+Here's a revised version of your README for GitHub, which includes a brief description, model details, differential equations, and instructions for using the repository:
+
+---
+
+# Stochastic SEIR Model for Milan's COVID-19 Outbreak
+
+This repository implements a stochastic SEIR (Susceptible-Exposed-Infectious-Recovered) model using historical data from Milan's COVID-19 outbreak. The model simulates the progression of the pandemic over 150 days during the first wave and analyzes the impact of different non-pharmaceutical interventions (NPIs) on hospital bed capacity.
+
+## Model Diagram
+
+![Model Diagram](images/Model%20diagram.jpg)
+
+## Parameters
+
+The model uses the following parameters:
+- \(\beta\): Transmission rate
+- \(\sigma\): Rate at which exposed individuals become infectious
+- \(\alpha\): Rate at which infectious individuals are hospitalized
+- \(\theta\): Rate at which non-ICU hospitalized individuals recover
+- \(\gamma_1\): Rate at which non-ICU hospitalized individuals are moved to the ICU
+- \(\lambda_1\): Rate at which ICU individuals recover
+- \(\delta\): Death rate in the ICU
+
+## Differential Equations
+
+The model is governed by the following system of differential equations:
+
+\[
+\begin{align*}
+\frac{dS}{dt} &= -\beta \frac{SI}{N} \\
+\frac{dE}{dt} &= \beta \frac{SI}{N} - \sigma E \\
+\frac{dI}{dt} &= \sigma E - \alpha I \\
+\frac{dB_N}{dt} &= \alpha I - (\theta + \gamma_1) B_N \\
+\frac{dB_{ICU}}{dt} &= \gamma_1 B_N - (\lambda_1 + \delta) B_{ICU}
+\end{align*}
+\]
+
+where:
+- \(S\) is the number of susceptible individuals
+- \(E\) is the number of exposed individuals
+- \(I\) is the number of infectious individuals
+- \(B_N\) is the number of non-ICU hospitalized individuals
+- \(B_{ICU}\) is the number of ICU hospitalized individuals
+- \(N\) is the total population
+
+## Usage
+
+To run the model, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Vilmo18/COVID-19-Making-Decision
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd SEIR-Milan-COVID19
+    ```
+
+## Analysis
+
+The simulation will provide insights into the impact of various NPIs on hospital bed capacity. Results will be visualized to show the progression of the pandemic under different scenarios.
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License 
 
 
 
