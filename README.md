@@ -10,7 +10,7 @@ Annette  -  Emmanuel A. - Jay - Oumarou  - Shama - Tiwonge - Yvan
 
 ## Title
 
-The Impact of Timing of Non-Pharmaceutical Interventions (NPIs) on ICU Beds Occupancy During the 2020 COVID-19 Outbreak in Italy
+The Timing Impact of Non-Pharmaceutical Interventions (NPIs) on ICU Beds Occupancy During the 2020 COVID-19 Outbreak in Italy
 
 <p align="center">
   <img src="images/italy.png" alt="non icu" width="300"/>
@@ -19,7 +19,7 @@ The Impact of Timing of Non-Pharmaceutical Interventions (NPIs) on ICU Beds Occu
 ## Objective
 
 Our goal in this project is to advise Italian policymakers on the optimal timeline for interventions to prevent hospital
-overcrowding, protect citizens by curbing the virus’s spread at the right time, and reduce public health costs for the government.
+overcrowding, protect citizens by curbing down the virus’s spread at the right time, and reduce public health costs for the government.
 
 ## Research Question
 How does implementation of non-pharmaceutical interventions on days 5, 10, 30, and 50 after the first detected case of SARS-CoV-2 in Italy affect ICU bed occupancy?
@@ -144,7 +144,7 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## License
 
-This project is licensed under the MIT License 
+This project is licensed under the MIT License.
 
 
 
