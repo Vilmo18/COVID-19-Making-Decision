@@ -61,8 +61,10 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 
 ### SEIR Model States and Parameters
 
-#### States
+- #### <u>States</u>:
 
+<div align="center">
+  
 | **Symbol** | **Description**                                      |
 |------------|------------------------------------------------------|
 | $S$        | Number of susceptible individuals                    |
@@ -71,9 +73,11 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 | $B_N$      | Number of non-ICU hospitalized individuals           |
 | $B_{ICU}$  | Number of ICU hospitalized individuals               |
 
+</div>
 
-#### Parameters
-
+- #### Parameters:
+<div align="center">
+  
 | **Symbol** | **Description**                                       |
 |------------|-------------------------------------------------------|
 | $N$        | Total population                                      |
@@ -85,6 +89,7 @@ The model will simulate the progression of the pandemic over 150 days for the fi
 | $\lambda_1$| Rate at which ICU individuals recover                 |
 | $\delta$   | Death rate in the ICU                                 |
 
+</div>
 
 <!-- States:
 - $S$ is the number of susceptible individuals
